@@ -1,0 +1,21 @@
+{
+  "_comment": "Repositórios em destaque. Estrelas, forks e linguagem são atualizados automaticamente pelo GitHub Actions.",
+  "projects": [
+    {
+      "repo": "DASHIFY",
+      "description": "Plataforma voltada à criação e evolução de dashboards, visualizações e experiências de Business Intelligence."
+    },
+    {
+      "repo": "social-hub-v3",
+      "description": "Hub para gestão, automação e organização de fluxos de conteúdo em redes sociais."
+    },
+    {
+      "repo": "Arbitrage-Bot",
+      "description": "Projeto de automação e análise orientado ao processamento rápido de oportunidades e dados de mercado."
+    },
+    {
+      "repo": "Meu-portf-lio",
+      "description": "Portfólio profissional com apresentação de competências, projetos e experiência em tecnologia e dados."
+    }
+  ]
+}

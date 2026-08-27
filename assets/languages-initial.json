@@ -1,0 +1,11 @@
+{
+  "title": "Stack de linguagens",
+  "_comment": "Prévia inicial. O workflow substituirá este radar por dados reais dos repositórios públicos.",
+  "axes": [
+    { "label": "Java", "value": 100 },
+    { "label": "Python", "value": 100 },
+    { "label": "TypeScript", "value": 100 },
+    { "label": "JavaScript", "value": 100 },
+    { "label": "SQL", "value": 100 }
+  ]
+}

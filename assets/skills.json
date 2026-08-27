@@ -1,0 +1,13 @@
+{
+  "title": "Radar de competências",
+  "_comment": "Valores iniciais para composição visual. Ajuste de 0 a 100 conforme quiser representar sua ênfase em cada área.",
+  "axes": [
+    { "label": "BI / Dashboards", "value": 95 },
+    { "label": "SQL / Modelagem", "value": 92 },
+    { "label": "ETL / ELT", "value": 92 },
+    { "label": "Data Quality", "value": 88 },
+    { "label": "Python", "value": 86 },
+    { "label": "Java / Spring", "value": 82 },
+    { "label": "JS / TypeScript", "value": 80 }
+  ]
+}

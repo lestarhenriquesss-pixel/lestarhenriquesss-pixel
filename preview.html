@@ -1,0 +1,60 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>prévia dos ativos do perfil</title>
+<style>
+  :root { color-scheme: dark }
+  body { background:#0d1117; color:#c9d1d9; font:15px/1.5 ui-sans-serif,Segoe UI,system-ui,sans-serif;
+         margin:0; padding:40px; }
+  h1 { font-size:20px; color:#39d353; letter-spacing:.02em }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:#8b949e;
+       border-bottom:1px solid #21262d; padding-bottom:8px; margin:44px 0 18px }
+  .row { display:flex; gap:28px; flex-wrap:wrap; align-items:flex-start }
+  .card { background:#0d1117; border:1px solid #21262d; border-radius:10px; padding:18px }
+  .card.light { background:#fff }
+  .tag { font:11px ui-monospace,Consolas,monospace; color:#8b949e; display:block; margin-bottom:10px }
+  img { display:block; max-width:100% }
+  button { background:#21262d; color:#c9d1d9; border:1px solid #30363d; border-radius:6px;
+           padding:5px 12px; font:inherit; font-size:12px; cursor:pointer; margin-left:14px;
+           vertical-align:middle; text-transform:none; letter-spacing:0 }
+  button:hover { background:#30363d; border-color:#39d353; color:#39d353 }
+  .missing { color:#8b949e; font-style:italic; font-size:13px }
+</style>
+
+<h1>ativos do perfil — prévia local</h1>
+<p class="missing">Cada ativo é exibido nos fundos escuro e claro para facilitar a conferência.</p>
+
+<h2>retrato <button id="replay">repetir animação</button></h2>
+<div class="row">
+  <div class="card"><span class="tag">retrato.svg (fundo escuro)</span>
+    <img class="retrato" src="assets/retrato.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'ainda não gerado — execute dotify.py'}))"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">retrato.svg (fundo claro)</span>
+    <img class="retrato" src="assets/retrato.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'ainda não gerado'}))"></div>
+</div>
+<script>
+  // The row-reveal runs once per image load, so force a fresh load to rewatch it.
+  document.getElementById('replay').onclick = () => {
+    document.querySelectorAll('img.retrato').forEach(img => {
+      img.src = 'assets/retrato.svg?' + Date.now();
+    });
+  };
+</script>
+
+<h2>radar de competências</h2>
+<div class="row">
+  <div class="card"><span class="tag">radar-dark.svg</span><img src="assets/radar-dark.svg" width="440"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">radar-light.svg</span><img src="assets/radar-light.svg" width="440"></div>
+</div>
+
+<h2>radar de linguagens</h2>
+<div class="row">
+  <div class="card"><span class="tag">radar-langs-dark.svg</span>
+    <img src="assets/radar-langs-dark.svg" width="440" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'gerado automaticamente pelo workflow Radar'}))"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">radar-langs-light.svg</span>
+    <img src="assets/radar-langs-light.svg" width="440" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'ainda não gerado'}))"></div>
+</div>
+
+<h2>métricas do GitHub</h2>
+<div class="row">
+  <div class="card"><span class="tag">metrics.isocalendar.svg</span>
+    <img src="assets/metrics.isocalendar.svg" width="620" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'gerado automaticamente pelo workflow Metrics'}))"></div>
+</div>

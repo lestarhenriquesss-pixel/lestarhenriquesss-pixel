@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-label="Calendário de contribuições">
+<rect x="1" y="1" width="898" height="228" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="450.0" y="107.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#39d353">Calendário de contribuições</text>
+<text x="450.0" y="139.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8b949e">Será preenchido automaticamente após a primeira execução do workflow Metrics.</text>
+</svg>
