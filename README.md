@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Retrato gerado a partir de assets/profile.jpg -->
-<img src="assets/portrait.svg" width="300" alt="Lestar Henriques">
+<img src="assets/profile.jpg" width="240" alt="Foto de Lestar Henriques">
 
 <br>
 
@@ -110,7 +110,10 @@ Sou **Lestar Henriques**, profissional de dados com foco em transformar informa�
 
 ## `~/` calendário de contribuições
 
-<img src="assets/metrics.isocalendar.svg" width="90%" alt="Calendário isométrico de contribuições">
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=lestarhenriquesss-pixel&theme=github-compact&hide_border=true&area=true"
+  width="100%"
+  alt="Atividade de contribuições no GitHub">
 
 <br><br>
 
@@ -136,7 +139,10 @@ Sou **Lestar Henriques**, profissional de dados com foco em transformar informa�
 
 <br>
 
-<img src="assets/metrics.languages.svg" height="165" alt="Linguagens mais utilizadas">
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=lestarhenriquesss-pixel&layout=compact&langs_count=10&theme=github_dark&hide_border=true&locale=pt-br"
+  height="190"
+  alt="Linguagens mais utilizadas">
 
 <br><br>
 
