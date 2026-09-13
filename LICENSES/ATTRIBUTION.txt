@@ -1,0 +1,11 @@
+Font Awesome Free — Fonticons, Inc.
+
+Ícones vetoriais utilizados sob a licença CC BY 4.0.
+https://fontawesome.com
+https://creativecommons.org/licenses/by/4.0/
+
+Adaptações: cores, dimensões e composição dos ícones nos painéis SVG.
+A licença distribuída com os ícones está em Font-Awesome-Free.txt.
+
+Os nomes e as marcas de produtos pertencem aos respectivos titulares.
+Pictogramas genéricos identificam algumas ferramentas; não são logos oficiais.

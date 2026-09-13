@@ -1,0 +1,18 @@
+{
+  "username": "lestarhenriquesss-pixel",
+  "public_repositories": [
+    "DASHIFY",
+    "social-hub-v3",
+    "Arbitrage-Bot",
+    "financeiro",
+    "Meu-portf-lio"
+  ],
+  "excluded_languages": [
+    "Shell",
+    "Makefile",
+    "Dockerfile",
+    "Batchfile",
+    "Procfile"
+  ],
+  "curve": 0.4
+}

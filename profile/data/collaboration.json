@@ -1,0 +1,15 @@
+{
+  "proposed": 8,
+  "merged": 7,
+  "repositories": 3,
+  "days": {
+    "2026-07-09": 1,
+    "2026-08-28": 1,
+    "2026-08-29": 3,
+    "2026-09-02": 2,
+    "2026-09-10": 1
+  },
+  "verified_at": "2026-09-13",
+  "scope": "PRs de autoria própria fora da conta pessoal, no acesso autorizado; UTC. Histórico retornado até a data da consulta, não toda a atividade no GitHub.",
+  "mode": "authorized_snapshot"
+}

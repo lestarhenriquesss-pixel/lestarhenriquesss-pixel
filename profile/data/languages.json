@@ -1,0 +1,33 @@
+{
+  "mode": "inherited_index",
+  "verified_at": "2026-09-13",
+  "generated_at": null,
+  "curve": 0.4,
+  "source": "https://github.com/lestarhenriquesss-pixel/lestarhenriquesss-pixel/blob/main/assets/radar-langs-dark.svg",
+  "axes": [
+    {
+      "label": "Python",
+      "value": 100
+    },
+    {
+      "label": "JavaScript",
+      "value": 77.8
+    },
+    {
+      "label": "HTML",
+      "value": 49.2
+    },
+    {
+      "label": "TypeScript",
+      "value": 47.4
+    },
+    {
+      "label": "CSS",
+      "value": 27.7
+    },
+    {
+      "label": "PowerShell",
+      "value": 16.5
+    }
+  ]
+}

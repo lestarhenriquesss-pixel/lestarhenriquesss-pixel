@@ -1,0 +1,34 @@
+{
+  "title": "Mapa de atuação",
+  "kind": "Ênfase declarada; não representa avaliação de proficiência.",
+  "axes": [
+    {
+      "label": "BI / Dashboards",
+      "value": 95
+    },
+    {
+      "label": "SQL / Modelagem",
+      "value": 92
+    },
+    {
+      "label": "ETL / ELT",
+      "value": 92
+    },
+    {
+      "label": "Data Quality",
+      "value": 88
+    },
+    {
+      "label": "Python",
+      "value": 86
+    },
+    {
+      "label": "Java / Spring",
+      "value": 82
+    },
+    {
+      "label": "JS / TypeScript",
+      "value": 80
+    }
+  ]
+}

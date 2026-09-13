@@ -1,0 +1,46 @@
+name: Perfil - visuais e dados
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Validar scripts
+        run: python -m py_compile profile/scripts/model.py profile/scripts/render.py profile/scripts/update.py
+      - name: Consultar dados sem publicar respostas privadas
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          REFRESH_AUTHORIZED_AGGREGATES: ${{ vars.REFRESH_AUTHORIZED_AGGREGATES }}
+        run: python profile/scripts/update.py
+      - name: Renderizar recursos locais
+        run: python profile/scripts/render.py
+      - name: Publicar somente os arquivos gerados
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/profile/*.svg profile/data/languages.json profile/data/collaboration.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: atualiza visuais e snapshots do perfil'
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
