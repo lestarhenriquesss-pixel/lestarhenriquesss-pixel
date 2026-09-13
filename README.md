@@ -1,9 +1,14 @@
-<picture>
+﻿<picture>
   <source media="(max-width: 640px) and (prefers-reduced-motion: reduce)" srcset="assets/profile/hero-mobile-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/hero-static.svg">
   <source media="(max-width: 640px)" srcset="assets/profile/hero-mobile.svg">
   <img src="assets/profile/hero.svg" width="100%" alt="Lestar Henriques — Engenharia de Dados, BI e automação.">
 </picture>
+<p align="center">
+  <a href="https://github.com/lestarhenriquesss-pixel">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=650&size=23&duration=2600&pause=900&color=5DE8E5&center=true&vCenter=true&width=920&lines=Engenharia+de+Dados+%26+Business+Intelligence;Dashboards+%7C+ETL+%2F+ELT+%7C+Automa%C3%A7%C3%A3o;Python+%7C+SQL+%7C+Power+BI+%7C+TypeScript;Decis%C3%B5es+mais+inteligentes+come%C3%A7am+com+dados" alt="Apresentação animada de Lestar Henriques">
+  </a>
+</p>
 
 <p align="center">
   <a href="https://meu-portf-lio-steel.vercel.app/"><img src="assets/profile/link-portfolio.svg" width="150" alt="Abrir portfólio"></a>
@@ -140,3 +145,4 @@ Experimentos pessoais com dados, automação e desenvolvimento — uma parte do 
 </picture>
 
 <p align="center"><a href="https://www.linkedin.com/in/lestarangelo">LinkedIn</a> · <a href="mailto:Lestarherminio@gmail.com">E-mail</a> · <a href="https://meu-portf-lio-steel.vercel.app/">Portfólio</a></p>
+
