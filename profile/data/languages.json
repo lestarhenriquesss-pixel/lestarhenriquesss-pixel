@@ -1,33 +1,49 @@
 {
-  "mode": "inherited_index",
+  "mode": "public_bytes",
   "verified_at": "2026-09-13",
-  "generated_at": null,
+  "generated_at": "2026-09-13",
   "curve": 0.4,
-  "source": "https://github.com/lestarhenriquesss-pixel/lestarhenriquesss-pixel/blob/main/assets/radar-langs-dark.svg",
+  "source": "GitHub REST API /repos/{owner}/{repo}/languages",
+  "scope": "Repositórios públicos selecionados em profile/data/config.json; sem forks.",
+  "bytes": {
+    "JavaScript": 693524,
+    "Python": 1257971,
+    "CSS": 52632,
+    "HTML": 217251,
+    "TypeScript": 201069,
+    "PowerShell": 13657
+  },
   "axes": [
     {
       "label": "Python",
-      "value": 100
+      "value": 100.0,
+      "share": 51.64
     },
     {
       "label": "JavaScript",
-      "value": 77.8
+      "value": 78.81,
+      "share": 28.47
     },
     {
       "label": "HTML",
-      "value": 49.2
+      "value": 49.54,
+      "share": 8.92
     },
     {
       "label": "TypeScript",
-      "value": 47.4
+      "value": 48.03,
+      "share": 8.25
     },
     {
       "label": "CSS",
-      "value": 27.7
+      "value": 28.1,
+      "share": 2.16
     },
     {
       "label": "PowerShell",
-      "value": 16.5
+      "value": 16.38,
+      "share": 0.56
     }
-  ]
+  ],
+  "note": "Índice relativo em curva explícita; share contém porcentagem real, mas não é a escala do radar."
 }
